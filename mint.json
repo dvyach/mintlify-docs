@@ -32,6 +32,10 @@
     {
       "name": "Learning",
       "url": "api-reference"
+    },
+    {
+      "name": "itinerary",
+      "url": "essentials"
     }
   ],
       "primaryTab": {
@@ -68,7 +72,7 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Courses",
       "pages": [
         "api-reference/course"
       ]
