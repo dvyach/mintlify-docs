@@ -30,13 +30,14 @@
   },
   "tabs": [
     {
-      "name": "Learning",
-      "url": "api-reference"
-    },
-    {
       "name": "itinerary",
       "url": "essentials"
+    },
+    {
+      "name": "Learning",
+      "url": "api-reference"
     }
+
   ],
       "primaryTab": {
       "name": "Home"
