@@ -1,15 +1,15 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Nanoheal Learning Portal",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/nh-logo-light.png",
+    "light": "/logo/nh-logo-dark.png"
   },
-  "favicon": "/favicon.png",
+  "favicon": "logo/fav.png",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
-    "dark": "#0D001D",
+    "primary": "#008099",
+    "light": "#88d3d7",
+    "dark": "#282a25",
     "background": {
       "dark": "#090014"
     },
@@ -21,12 +21,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@nanoheal.com"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://pov.nanoheal.com"
   },
   "tabs": [
     {
@@ -34,11 +34,14 @@
       "url": "api-reference"
     }
   ],
+      "primaryTab": {
+      "name": "Home"
+  },
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Website",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "nanoheal.com"
     },
     {
       "name": "Community",
@@ -54,15 +57,27 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": [
+        "introduction",
+        "quickstart",
+        "development"
+      ]
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation"
+      ]
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
+      "pages": [
+        "api-reference/authentication"
+      ]
     },
     {
       "group": "Endpoint Examples",
