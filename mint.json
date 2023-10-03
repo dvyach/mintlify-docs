@@ -70,13 +70,15 @@
         "essentials/code",
         "essentials/images",
         "essentials/settings",
-        "essentials/navigation"
+        "essentials/navigation",
+        "essentials/courselist"
       ]
     },
     {
       "group": "API Documentation",
       "pages": [
-        "api-reference/authentication"
+        "api-reference/authentication",
+        "api-reference/course"
       ]
     },
     {
