@@ -61,9 +61,13 @@
   "navigation": [
     {
       "group": "Leaning Path",
-      "pages": [
-        "introduction"
-      ]
+      "pages":  [
+        "Introduction",
+        {
+            "group": "Nested Reference Pages",
+            "pages": ["L1/Dashboard"]
+        }
+    ]
     },
     {
       "group": "L1",
