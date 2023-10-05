@@ -63,12 +63,11 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "introductionorg",
-        "essentials/settings"
+        "introductionorg"
       ]
     },
     {
-        "group": "Getting Started",
+        "group": "Getting Startedd",
         "pages": [
             "quickstart",
             {
