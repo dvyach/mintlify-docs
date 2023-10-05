@@ -60,9 +60,9 @@
   ],
   "navigation": [
     {
-      "group": "Introduction",
+      "group": "Learning Path",
       "pages": [
-        "L1",
+        "L1/Introduction",
         {
             "group": "Level 1",
             "pages": ["L1/Dashboard", "L1/ManageDevice", "L3/Notification"]
