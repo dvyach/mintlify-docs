@@ -63,19 +63,10 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "introductionorg"
+        "introductionorg",
+        "essentials/settings"
       ]
     },
-    {
-        "group": "Getting Startedd",
-        "pages": [
-            "quickstart",
-            {
-                "group": "Nested Reference Pages",
-                "pages": ["essentials/code"]
-            }
-        ]
-    }
     {
       "group": "Learning path",
       "pages": [
