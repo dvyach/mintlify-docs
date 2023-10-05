@@ -69,7 +69,8 @@
       "group": "Level 1",
       "pages": [
         "L1/Dashboard",
-        "L1/ManageDevice"
+        "L1/ManageDevice",
+        "L1/Notifications"
       ]
     },
     {
