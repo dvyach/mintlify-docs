@@ -60,11 +60,13 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Learning Path",
       "pages": [
-        "introduction",
-        "introductionorg",
-        "essentials/settings"
+        "L1",
+        {
+          "group": "Dashboard",
+          "pages": ["essentials/code"]
+       }
       ]
     },
 {
