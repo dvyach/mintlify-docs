@@ -60,29 +60,15 @@
   ],
   "navigation": [
     {
-      "group": "Learning Path",
+      "group": "Leaning Path",
       "pages": [
-        "L1",
-        {
-          "group": "Dashboard",
-          "pages": ["L1/Dashboard"]
-       }
+        "introduction"
       ]
     },
-{
-        "group": "Getting Started",
-        "pages": [
-            "quickstart",
-            {
-                "group": "Nested Reference Pages",
-                "pages": ["essentials/code"]
-            }
-        ]
-    },
     {
-      "group": "Learning path",
+      "group": "L1",
       "pages": [
-        "essentials/settings"
+        "L1/Dashboard"
       ]
     },
     {
