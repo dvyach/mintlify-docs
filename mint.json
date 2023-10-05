@@ -37,10 +37,9 @@
       "name": "Learning",
       "url": "api-reference"
     }
-
   ],
-      "primaryTab": {
-      "name": "Home"
+  "primaryTab": {
+    "name": "Home"
   },
   "anchors": [
     {
@@ -65,6 +64,13 @@
       "pages": [
         "introduction",
         "introductionorg"
+      ]
+    },
+    {
+      "group": "Get Started",
+      "pages": [
+        "Learning Path",
+        "Learning Path"
       ]
     },
     {
