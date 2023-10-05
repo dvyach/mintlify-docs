@@ -68,6 +68,16 @@
       ]
     },
     {
+        "group": "Getting Started",
+        "pages": [
+            "quickstart",
+            {
+                "group": "Nested Reference Pages",
+                "pages": ["essentials/code"]
+            }
+        ]
+    }
+    {
       "group": "Learning path",
       "pages": [
         "essentials/settings"
