@@ -25,7 +25,7 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboards",
+    "name": "Dashboard",
     "url": "https://pov.nanoheal.com"
   },
   "tabs": [
@@ -66,6 +66,16 @@
         "introductionorg",
         "essentials/settings"
       ]
+    },
+{
+        "group": "Getting Started",
+        "pages": [
+            "quickstart",
+            {
+                "group": "Nested Reference Pages",
+                "pages": ["essentials/code"]
+            }
+        ]
     },
     {
       "group": "Learning path",
