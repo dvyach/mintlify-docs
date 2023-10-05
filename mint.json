@@ -20,12 +20,12 @@
   },
   "topbarLinks": [
     {
-      "name": "Supportt,
+      "name": "Support",
       "url": "mailto:support@nanoheal.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboards",
+    "name": "Dashboard",
     "url": "https://pov.nanoheal.com"
   },
   "tabs": [
