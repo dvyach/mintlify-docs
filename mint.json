@@ -78,8 +78,18 @@
       "pages": [
         "L2/Roles",
         "L2/SWD",
-        "L2/Sites"
+        "L2/Site"
       ]
+    },
+    {
+      "group": "Level 3",
+      "pages": [
+        "quickstart",
+        {
+            "group": "Darts",
+            "pages": ["L3/Dart288", "L3/Dart310", "L3/Dart304"]
+        }
+    ]
     },
     {
       "group": "Courses",
