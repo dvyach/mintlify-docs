@@ -67,10 +67,9 @@
       ]
     },
     {
-      "group": "Get Started",
+      "group": "Learning path",
       "pages": [
-        "Learning Path",
-        "Learning Path"
+        "essentials/courselist"
       ]
     },
     {
