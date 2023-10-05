@@ -63,13 +63,14 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "introductionorg"
+        "introductionorg",
+        "Learning Path"
       ]
     },
     {
-      "group": "Learning path",
+      "group": "Get Started",
       "pages": [
-        "essentials/courselist"
+        "essentials/settings"
       ]
     },
     {
