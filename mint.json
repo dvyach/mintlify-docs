@@ -66,12 +66,6 @@
       ]
     },
     {
-      "group": "L1",
-      "pages": [
-        "L1/Dashboard"
-      ]
-    },
-    {
       "group": "Essentials",
       "pages": [
         "essentials/courselist"
