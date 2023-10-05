@@ -62,8 +62,10 @@
     {
       "group": "Learning Path",
       "pages": [
-        "Introduction",
-        "Level 1"
+        "L1/Introduction"
+      ],
+      "pages": [
+        "L1"
       ]
     },
     {
