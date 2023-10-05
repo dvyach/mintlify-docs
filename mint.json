@@ -60,13 +60,14 @@
   ],
   "navigation": [
     {
-      "group": "Learning Path",
+      "group": "Introduction",
       "pages": [
-        "L1/Introduction"
-      ],
-      "pages": [
-        "L1"
-      ]
+        "L1",
+        {
+            "group": "Level 1",
+            "pages": ["L1/Dashboard", "L1/ManageDevice", "L3/Notification"]
+        }
+    ]
     },
     {
       "group": "Level 1",
