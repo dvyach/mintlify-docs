@@ -60,22 +60,24 @@
   ],
   "navigation": [
     {
-      "group": "Learning Path",
+      "group": "Get Started",
       "pages": [
-        "L1/Introduction",
-        {
-            "group": "Level 1",
-            "pages": ["L1/Dashboard", "L1/ManageDevice", "L3/Notifications"]
-        },
-        {
-          "group": "Level 2",
-          "pages": ["L2/Roles", "L2/SWD", "L2/Sites"] 
-        },
-        {
-          "group": "Level 3",
-          "pages": ["L3/Dart288", "L3/Dart310", "L3/Dart304"]
-        }
-    ]
+        "introduction",
+        "introductionorg",
+        "essentials/settings"
+      ]
+    },
+    {
+      "group": "Learning path",
+      "pages": [
+        "essentials/settings"
+      ]
+    },
+    {
+      "group": "Essentials",
+      "pages": [
+        "essentials/courselist"
+      ]
     },
     {
       "group": "Courses",
