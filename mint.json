@@ -77,7 +77,7 @@
         },
         {
           "group": "Nanoheal Client",
-          "pages": ["Client/Introduction"]
+          "pages": ["Client/Introduction","Client/openclient"]
         }
     ]
     },
