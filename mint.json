@@ -74,6 +74,10 @@
         {
           "group": "Level 3",
           "pages": ["L3/Dart288", "L3/Dart310", "L3/Dart304"]
+        },
+        {
+          "group": "Nanoheal Client",
+          "pages": ["Client/Introduction","Client/openclient"]
         }
     ]
     },
