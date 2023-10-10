@@ -91,7 +91,8 @@
           "group": "Nanoheal Client",
           "pages": [
             "Client/Introduction",
-            "Client/openclient"
+            "Client/openclient",
+            "Client/clientUIsections"
           ]
         }
       ]
