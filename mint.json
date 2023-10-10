@@ -1,112 +1,112 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Nanoheal Learning Portal",
-  "logo": {
-    "dark": "/logo/nh-logo-light.png",
-    "light": "/logo/nh-logo-dark.png"
+  "$schema":"https://mintlify.com/schema.json",
+  "name":"Nanoheal Learning Portal",
+  "logo":{
+     "dark":"/logo/nh-logo-light.png",
+     "light":"/logo/nh-logo-dark.png"
   },
-  "favicon": "logo/fav.png",
-  "colors": {
-    "primary": "#008099",
-    "light": "#88d3d7",
-    "dark": "#282a25",
-    "background": {
-      "dark": "#090014"
-    },
-    "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
-    }
+  "favicon":"logo/fav.png",
+  "colors":{
+     "primary":"#008099",
+     "light":"#88d3d7",
+     "dark":"#282a25",
+     "background":{
+        "dark":"#090014"
+     },
+     "anchors":{
+        "from":"#FF7F57",
+        "to":"#9563FF"
+     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:support@nanoheal.com"
-    }
+  "topbarLinks":[
+     {
+        "name":"Support",
+        "url":"mailto:support@nanoheal.com"
+     }
   ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://pov.nanoheal.com"
+  "topbarCtaButton":{
+     "name":"Dashboard",
+     "url":"https://pov.nanoheal.com"
   },
-  "tabs": [
-    {
-      "name": "itinerary",
-      "url": "essentialss"
-    },
-    {
-      "name": "Learning",
-      "url": "api-reference"
-    }
+  "tabs":[
+     {
+        "name":"itinerary",
+        "url":"essentialss"
+     },
+     {
+        "name":"Learning",
+        "url":"api-reference"
+     }
   ],
-  "primaryTab": {
-    "name": "Home"
+  "primaryTab":{
+     "name":"Home"
   },
-  "anchors": [
-    {
-      "name": "Website",
-      "icon": "book-open-cover",
-      "url": "nanoheal.com"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
+  "anchors":[
+     {
+        "name":"Website",
+        "icon":"book-open-cover",
+        "url":"nanoheal.com"
+     },
+     {
+        "name":"Community",
+        "icon":"slack",
+        "url":"https://mintlify.com/community"
+     },
+     {
+        "name":"Blog",
+        "icon":"newspaper",
+        "url":"https://mintlify.com/blog"
+     }
   ],
-  "navigation": [
-    {
-      "group": "Learning Path",
-      "pages": [
-        "L1/Introduction",
-        {
-          "group": "Level 1",
-          "pages": [
-            "L1/Dashboard",
-            "L1/ManageDevice",
-            "L3/Notifications"
-          ]
-        },
-        {
-          "group": "Level 2",
-          "pages": [
-            "L2/Roles",
-            "L2/SWD",
-            "L2/Sites"
-          ]
-        },
-        {
-          "group": "Level 3",
-          "pages": [
-            "L3/Dart288",
-            "L3/Dart310",
-            "L3/Dart304"
-          ]
-        },
-        {
-          "group": "Nanoheal Client",
-          "pages": [
-            "Client/Introduction",
-            "Client/openclient",
-            "Client/clientuisections"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Courses",
-      "pages": [
-        "api-reference/course"
-      ]
-    }
+  "navigation":[
+     {
+        "group":"Learning Path",
+        "pages":[
+           "L1/Introduction",
+           {
+              "group":"Level 1",
+              "pages":[
+                 "L1/Dashboard",
+                 "L1/ManageDevice",
+                 "L3/Notifications"
+              ]
+           },
+           {
+              "group":"Level 2",
+              "pages":[
+                 "L2/Roles",
+                 "L2/SWD",
+                 "L2/Sites"
+              ]
+           },
+           {
+              "group":"Level 3",
+              "pages":[
+                 "L3/Dart288",
+                 "L3/Dart310",
+                 "L3/Dart304"
+              ]
+           },
+           {
+              "group":"Nanoheal Client",
+              "pages":[
+                 "Client/Introduction",
+                 "Client/openclient",
+                 "Client/clientuisections"
+              ]
+           }
+        ]
+     },
+     {
+        "group":"Courses",
+        "pages":[
+           "api-reference/course"
+        ]
+     }
   ],
-  "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+  "footerSocials":{
+     "twitter":"https://twitter.com/mintlify",
+     "github":"https://github.com/mintlify",
+     "linkedin":"https://www.linkedin.com/company/mintsearch"
   }
 }
