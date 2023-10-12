@@ -95,7 +95,17 @@
                  "Client/clientuisections",
                  "Client/automations"
               ]
-           }
+           },
+           {
+            "group":"Nanoheal Dashboard",
+            "pages":[
+               "Dashboard/introduction",
+               "Client/openclient",
+               "Client/clientuisections",
+               "Client/automations"
+            ]
+         }
+
         ]
      },
      {
