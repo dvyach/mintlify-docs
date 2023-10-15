@@ -100,7 +100,7 @@
             "group":"Nanoheal Dashboard",
             "pages":[
                "Dashboard/introduction",
-               "Client/openclient",
+               "Dashboard/agentworkspace",
                "Client/clientuisections",
                "Client/automations"
             ]
