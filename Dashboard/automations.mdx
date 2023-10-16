@@ -20,7 +20,6 @@ DART stand for Display Analysis and Resolution Tool. DART is a browser based res
 A specific DART is developed depending on the requirements.DART is configurable as per customer's requirement.
 DART can be set to run on a particular day and time.This is called as scheduling DART.A DART can be scheduled only if it is enabled using script enable option.
 
-DARTs
     ### DARTs are categorized into,
 1. Problem Automation
 2. Device Management
@@ -41,25 +40,44 @@ To make changes to a DART:
   </Tab>
 
 
-  <Tab title="Notification states">
+  <Tab title="Profile Wizard">
     ### Notification has 3 states
-1. New - Means that the notification is new and has not been actioned upon.
-2. Actioned - Means that an action other than a fix has been take on the notification. These are the 
-type of statuses that can be set on a notification.
-a. Duplicate
-b. Escalated
-c. No Remote Solution
-d. Dismissed
-e. Customer has called Inbound queue
-f. Follow Up already In Progress/Notified
-g. No valid contract found
-h. Remote Solution Pushed
-i. Out of Scope
-j. Resolved on the call
-k. Customer not reachable
-l. Customer Declined Resolution
-3. Completed - Means that a resolution has been pushed on to the machine/group of machines to 
-fix the notification.
+Profile wizard will help you set the toolkit tiles that must be visible on the Management portal and on the Client UI. To see the list of profiles:
+1. Navigate to the module via the side pane.
+2. Navigate will show the following details linked to the profile.
+    1. Name of the Profile.
+    2. Name of the person who created the profile.
+    3. Date and time the Profile was created on.
+    4. Modified by.
+    5. modified on.
+    6. Site the profile is linked to.
+    7. Groups the profile is linked to.
+
+    ### Add a profile
+1. Navigate to the module via the side pane, and choose “Add a new profile” from the menu on the far right
+2. You will see a page similar to the one shown below
+3. Add a name to the profile and select the tiles that would be part of the Profile and click on next.
+4. Select the tiles that must be shown on the Client UI and click on next.
+5. If you want to add custom tiles you can do so in the 3rd step of the wizard.
+    1. Add a name to the custom tile.
+    2. Add a Description.
+    3.  Choose if the tile must be visible only on the portal or on both portal and the client.
+    4. Select the operating system that the tile will be executed on.
+    5. Select the DARTs that would be part of the tile.
+    6. Choose the DART number and add a description. Multiple DARTs can be executed as part of tile.
+    7. You can add multiple tiles by clicking on “Add more”.
+    8. If you don’t want to add a new tile, you can skip the steps by clicking on “Skip this step”.
+6. You can configure the DARTs that are part of the custom tiles at this step. Click on the ‘Pen’ icon next to the DART to open the DART edit screen.
+7. Make the changes and click on next.
+8. DARTs can be run in multiple sequences while a tile is executed. Enter the DART execution sequence, a click on next
+9. Review the tiles that were added to the profile and click on Save to save the Profile.
+
+###Attach the profile
+A profile can be attached to one or multiple sites or groups. Follow these steps to attach a profile to a site
+1. Navigate to the module via the side menu.
+2. Select the profile and choose Attach profile from the menu on the far right.
+3. Select of the profile must be attached to a site or to a group.
+4. Select the site/ group from the dropdown and click on the tick mark to the save the selection.
 
   </Tab>
 
