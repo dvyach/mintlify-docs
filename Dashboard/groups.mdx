@@ -1,0 +1,85 @@
+---
+title: Groups
+description: Groups are used to logically categories devices. A device may or may not belong to a group and unlike sites, a device can be moved from one group to the other. All groups can be used as the target for monitoring, creating insights and even for triggering a resolution.
+icon : "life-ring" 
+---
+Groups can be created manually and by importing CSV file.
+You can see the list of groups by:
+1. Click on (change?) on any of the modules on the Management Portal.
+2. Select groups from the side pane.
+
+<Tabs>
+  <Tab title="Add a group">
+Follow these steps to add a new device group.
+1. Navigate to the census module and click on the side menu.
+2. Select add a new group from the drop down.
+3. Choose if you would like to add the devices to the group manually or via a CSV file.
+
+##Add a group Via CSV file:
+1. Select the Site whose device would be part of the CSV group.
+2. Click on Download CSV to download the list of machines.
+3. CSV that has been downloaded will have the following details:
+        1. Name of the site.
+        2. Name of the device.
+        3. Following device Groups if they are configured
+            1. Department the Device Belongs to.
+            2. Segment the Device Belongs to.
+            3. Geo
+            4. City where the device is.
+            5. Any other attributes.
+4. Enter the Name of the groups in the respective columns in the excel to create the device Groups. If you want to place a device in more than one group under a Group category, for example if you would like to place a device under 2 Departments, enter name of both the groups separated by a “|” symbol.
+5. Save the file in a CSV format and upload it to the Management portal. You can do so using the upload Button on the add a group page.
+6. You will now see the list of ’new’ machine groups that you have added.
+7. If you have made a typo while adding a group, you can make the csv and upload it again.
+8. Set the Users who will have access to the group and click on the check mark to save the machine groups.
+9. Click on the tick mark on the far-right corner to save the group details.
+
+##Add a group Manually: if you want to create a group manually,
+1. Select the group category from the dropdown. Every group created must be part of a group category
+2. Enter the group name
+3. Select the users who will have access to the groups.
+4. Click on Add devices manually to select the devices that will be part of the group Manually.
+5. Select the devices and click on the tick mark on the top right to add the devices. You can also click on “Back to add” to cancel the machine selection and go back to “Add a Group page”
+6. Click on the tick mark on the far-right corner to save the group details.
+
+  </Tab>
+  <Tab title="Edit a group">
+##Edit a group
+To make changes to the groups that you have already configured:
+1. Navigate to the Census module via the side pane.
+2. Click on “(change?)”, and select the Machine group from the side pane
+3. Open the menu and click on Edit group.
+4. You will see the group details now. Click on the edit option on the far-right corner. You will be able to edit the details
+        1. List of Users who will have access to the groups
+        2. The devices that are part of the group.
+5. Click on Download the CSV to download the list of devices that are already part of the group.
+6. Edit the details in the CSV and upload it back to the portal make the changes.
+7. Click on the Tick mark on the far-right corner if you are happy with your changes to complete the process.
+  </Tab>
+
+  <Tab title="Export Group details">
+To export the details of the devices that are part of the group, select the group and click on Export group details from the menu on the right.
+Group details would be saved to your default download location in .xls format. The file that was downloaded will have the information.
+1. Name of the Group
+2. Type of the Group
+3. Created By
+4. Created on
+5. Modified By
+6. Modified on
+7. Name of the Site the device belongs to
+9. Name of the Machine
+10. Date the software was installed on the device (Born Date)
+11. Date and time when the Last event were reported from the device
+  </Tab>
+
+
+  <Tab title="View Group details">
+To see the group details, select the group and click on View Group information from the menu on the right.
+  </Tab>
+
+  <Tab title="Delete a group">
+To delete a group, select the group and click on delete from the menu on the right.
+You will be asked to confirm if you would like to delete the group. Click on Yes, Delete it to delete the Group.
+  </Tab>
+
+</Tabs>
