@@ -1,51 +1,89 @@
 ---
-title: Alert Configuration
+title: Access
 description: 
 icon : "life-ring" 
 ---
+Access module will help you manage the users and user roles & permissions.
+
+<img
+  style={{ borderRadius: '0.5rem' }}
+  src="https://nanoheal-enterprise.s3.amazonaws.com/access.jpg"
+/>
 
 <Tabs>
-  <Tab title="Notifications & Compliance">
-As the name only indicates “Notification” is about notifying the user about an event as it occurs. To access the module:
-1. Navigate to the module via the side pane.
-2. Following details are shows for every filter that is created:
-    1. Name of the Filter.
-    2. Sites the Filter is linked to.
-    3. Type of notifications that would be created using the filter.
-    4. Date and time when the filter was created.
-    5. Date and time when the filter was modified.
-    6. Filter Status.
+  <Tab title="Users">
+If you are the administrator, or if you have the privileges needed to create a user, you can do so through the Users module.
+Users management
+To manage the users, navigate to the Module via the side pane. Following details are displayed on the page:
+1. Users First Name
+2. Users Last Name
+3. User Email ID
+4. Roles and permissions
+5. Users status
   </Tab>
 
-  <Tab title="Add a new filter">
-    Follow these steps to add a new event filter:
-1. Navigate to the module via the side pane. Choose to create a new notification from the menu.
-2. Add a Notification name.
-3. Select the type of notification.
-4. Choose the DART whose events must be considered to create the filter.
-5. Choose the DART criteria/keyword that must be searched from the dropdown.
-6. Set the logical operator and the associated parameter that would create the alert.
-7. Set the filter measure next. The notification/compliance would be created based on the measure set. To set a measure:
-    1. Choose if the alert created would be for the status “ok”, “Warning”, “Alert” or to create a “Notification”.
-    2. Set the event count, and timeframe in which the set number of events should be generated to create the alert.
-    You can add multiple alert parameters to the same filter.
-8. Click on the tick mark to save the filter.
+<img
+  style={{ borderRadius: '0.5rem' }}
+  src="https://nanoheal-enterprise.s3.amazonaws.com/userinfo.jpg"
+/>
 
-
+  <Tab title="Add a User">
+    To add a new user, follow these steps.
+1. Navigate to the module via the side pane and select ‘Add New User’ from the menu drop down.
+2. Enter the users First Name, Last name and Email address.
+3. Select the sites that the user would have access to.
+4. Choose the users role to define the permissions.
+5. Set the time zone the user is in.
+6. And finally set the Security checks that is linked with the user. Security check set can either be via:
+    1. An email OTP
+    2. SSO
+    3. MFA
+7. Click on the tick mark to add the user.
+    Once the user has been added from the dashboard, he/she would receive an email on their email ID, with a detailed instruction on how to proceed.
   </Tab>
 
-  <Tab title="Link to a site">
-  To attach a notification compliance filter to a site,
-1. Navigate to the module via the side pane and choose link to site from the menu.
-2. Select the site and the filters that must be linked with the site.
-3. Click on the tick mark to save the filter.
-A notification/compliance record would be created when the events match the filter criteria.
+<img
+  style={{ borderRadius: '0.5rem' }}
+  src="https://nanoheal-enterprise.s3.amazonaws.com/adduser.jpg"
+/>
+
+<img
+  style={{ borderRadius: '0.5rem' }}
+  src="https://nanoheal-enterprise.s3.amazonaws.com/adduser1.jpg"
+/>
+
+
+  <Tab title="Edit User details">
+ Follow these steps to modify user details.
+1. Select the user you wish to modify from the table, and double click on the entry to view the user details
+2. Click on the edit button on the top right corner to edit
+3. You will be able to change all the details except for the users Email ID.
+4. Once you are happy with the changes, click on the tick mark to save, or click on the Cancel (X) button to cancel the changes.
   </Tab>
 
-    <Tab title="Delete a notification">
-  To delete a notification,
-1. Navigate to the module via the side pane and choose Delete notification from the menu.
-2. When prompted, select “Yes Delete” to delete the Filter.
+    <Tab title="Delete a User">
+Follow these steps to delete a user.
+1. Select the user you wish to delete from the users table.
+2. Navigate to the menu on the right and click on Delete user from the dropdown.
+3. Click on Yes when prompted to delete the user.
+Note: This step cannot be undone. Once deleted, a user will not be able to login to the dashboard with the same credentials.
+  </Tab>
+
+      <Tab title="Password Reset">
+As an administrator or as a user who has appropriate privileges, you can initiate a password reset on behalf of the user. To do so,
+1. Select the user that you want to perform this action on for from the table.
+2. Navigate to the menu on the right and click on reset password from the dropdown.
+3. An email will be sent to the user with detailed instructions on how to reset the password.
+  </Tab>
+
+        <Tab title="Resend Email">
+A user will only be able to login to the dashboard if he activates his account. After an admin has created the user through the dashboard, the user would have to go to the respective email ids and complete the account activation steps.
+In case a user has not received the account activation email, an admin can reinitiate the process by resending the email. To do so:
+1. Select the user from the table.
+2. Navigate to the menu and select Resend Email from the dropdown.
+3. The user would receive an email with detailed instruction on how to activate his account.
+    ### Note: You can resend an email only to those users who have their user’s status as pending.
+
   </Tab>
 
 </Tabs>
