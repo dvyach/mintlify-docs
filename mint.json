@@ -101,7 +101,7 @@
             "pages":[
                "Dashboard/introduction",
                "Dashboard/agentworkspace",
-               "Client/clientuisections",
+               "Dashboard/managment",
                "Client/automations"
             ]
          }
