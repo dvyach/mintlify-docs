@@ -1,0 +1,87 @@
+---
+title: Software Distribution
+description: 
+icon : "life-ring" 
+---
+Following details are shows for every package that is added:
+1.	Name of the Package
+2.	Description
+3.	Package Version
+4.	Platform that the Package is for
+5.	Date added
+6.	Is the Package Global?
+
+
+<Tabs>
+  <Tab title="Add a Software package">
+To add a software, navigate to the module via the side bar, and choose Add a new software from the menu dropdown, and enter the following details
+1. Platform: Select the OS to deploy the software on.
+2. Type: Choose if you are going to upload a file or a folder.
+3. Where will the software be hosted/is hosted? - Select if it would be a Nanoheal repository or a vendor repository.
+    1.	If Nanoheal Repository is chosen –
+        1.	Choose a method to upload the software? Select if it would be FTP Server or CDN Server.
+        2.	If you have selected FTP server,
+            1.	Enter Name of the Application/Package, Package Description and the Software Version.
+            2.	Choose if must upload separate packages for 32- or 64-bit OS.
+            3.	Upload the Software.
+            4.	Click on the tick mark to save the details.
+        3.	If you have selected CDN server, you can either upload a new package or choose to form the list of software’s that are already uploaded.
+            1.	If you wish to upload a new package to CDN server,
+                1.	Enter Name of the Application/Package, Package Description and the Software Version.
+                2.	Choose if must upload separate packages for 32- or 64-bit OS.
+                3.	Upload the Software.
+                4.	Click on the tick mark to save the details.
+            2.	If you have decided to pick the package from the list of software’s already uploaded to CDN,
+                1.	Choose if there are separate packages for 32- or 64-bit OS.
+                2.	Select the software from the list and click on the tick mark to save the details.
+    2.	If you have selected Vendor repository instead,
+        1.	enter the following details:
+            1.	Name of the application
+            2.	Package Description
+            3.	Software Version, and
+            4.	The Pre-Check Path
+        2.	Please set the access levels:
+            1.	Anonymous
+            2.	Secure
+            If you choose secure access you would have to enter the domain impersonation details, corresponding username and password. What this means is that when you distribute this software, it would only distribute in the domain mentioned and would fail in all other domains.
+
+  </Tab>
+  <Tab title="Notification states">
+    ### Notification has 3 states
+1. New - Means that the notification is new and has not been actioned upon.
+2. Actioned - Means that an action other than a fix has been take on the notification. These are the 
+type of statuses that can be set on a notification.
+a. Duplicate
+b. Escalated
+c. No Remote Solution
+d. Dismissed
+e. Customer has called Inbound queue
+f. Follow Up already In Progress/Notified
+g. No valid contract found
+h. Remote Solution Pushed
+i. Out of Scope
+j. Resolved on the call
+k. Customer not reachable
+l. Customer Declined Resolution
+3. Completed - Means that a resolution has been pushed on to the machine/group of machines to 
+fix the notification.
+
+  </Tab>
+
+  <Tab title="Notification Resolution">
+   You can take an action on a notification that has the “New" status. To do so:
+1. Select the notification and the device on which you would like to take an action.
+2. Click on the menu button on the far-right corner and select 'Action'
+3. You will see the fixes that can be applied on the notification. The fixes are:
+1. Suggested fixes: These are the set of resolutions that will solve the issue noticed. These 
+must be set once and can be executed every time a similar notification is reported.
+2. Other fixes: These are resolution tags when a notification cannot be fixed any other way.
+4. Select the action you wish to take and click on Tick mark on the far-right corner to execute the
+fix.
+You can also go to the toolkit module to execute a different fix on the machine that has triggered the 
+notification. To do so:
+5. Select the machine that you would like to take an action on and select “Action” from the menu.
+6. Click on the 'Go to Troubleshooters' from the bottom of the screen.
+7. Execute the fix from the toolkit section.
+  </Tab>
+</Tabs>
