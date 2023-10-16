@@ -46,29 +46,96 @@ To add a software, navigate to the module via the side bar, and choose Add a new
             If you choose secure access you would have to enter the domain impersonation details, corresponding username and password. What this means is that when you distribute this software, it would only distribute in the domain mentioned and would fail in all other domains.
 
   </Tab>
-  <Tab title="Notification states">
-    ### Notification has 3 states
-1. New - Means that the notification is new and has not been actioned upon.
-2. Actioned - Means that an action other than a fix has been take on the notification. These are the 
-type of statuses that can be set on a notification.
-a. Duplicate
-b. Escalated
-c. No Remote Solution
-d. Dismissed
-e. Customer has called Inbound queue
-f. Follow Up already In Progress/Notified
-g. No valid contract found
-h. Remote Solution Pushed
-i. Out of Scope
-j. Resolved on the call
-k. Customer not reachable
-l. Customer Declined Resolution
-3. Completed - Means that a resolution has been pushed on to the machine/group of machines to 
-fix the notification.
+  <Tab title="Configure Software for Distribution">
+After the packages are added they can be configured for “Execute and Deploy”
+Navigate to the module via the side bar, select the Package, and choose Configure Package from the menu dropdown. And follow these steps to configure the package:
+1. Name of the Software, and supported operating systems would be prefilled
+2. Choose if you would want to Configure the package so that it can be
+    1. Deployed.
+    2. Executed.
+    3. Both Deployed & Executed.
+4. If your software has separate 32- and 64-bit packages, you must configure them separately.
+
+    ### Configure Deploy
+    Click on the 32 bits / 64-bit configuration for Deploy and enter the following details:
+1. Enable the function by setting entering 1 on enable and 0 for disable. This value is set to 1 by default.
+2. The FTP/ CDN URL path would be prefilled based on the configurations set.
+3. Select If the Application must run in the foreground or the background. If an application is run in the foreground, an UI would be shown to the user while the software is being installed. If an application is run in the background, the installation would proceed silently.
+4. Select if the operation must be:
+    1. Executable in system privilege.
+    2. Executable in Admin privilege.
+    3. Executable in User privilege.
+    4. Executable in Admin with UAC.
+5. Enter the Command Line/ Distribution Path.
+6. Once these configurations are set, you can enter the Pre-Install Checks. These checks are set to make sure that a package is deployed only if the condition is met
+    1. File path exist.
+    2. File path does not exist.
+    3. Software version exists.
+    4. Software version does not exist.
+    5. Registry key exists.
+    6. Registry key does not exist.
+7. Enter the Precheck value i.e. File path/Software version/Registry key.
+8. You can also set the validation checks to validate the deployment. Validation path is either via
+    1. File path
+    2. Registry key
+    If file path is chosen, enter the File path
+    If the Registry key is chosen, Select the registry key from the dropdown, set the registry path and enter the registry path.
+9.You can next set the Patch dependency.
+Patch Dependency is set so that the Patch deployment can be skipped based on current patch. For example, if you are planning to execute a series of patches, you can skip the current patch of the previous patch was not successfully installed.
+
+    ### Configure Execute
+Click on the 32 bit / 64 bit configuration for Execute and enter the following details:
+1. Enable the function by setting entering 1 on enable and 0 for disable. This value is set to 1 by default.
+2. The FTP/ CDN URL path would be prefilled based on the configurations set.
+3. Select If the Application must run in the foreground or the background. If an application is run in the foreground, an UI would be shown to the user while the software is being installed. If an application is run in the background, the installation would proceed silently.
+4. Select if the operation must be:
+    1. Executable in system privilege.
+    2. Executable in Admin privilege.
+    3. Executable in User privilege.
+    4. Executable in Admin with UAC.
+5. Enter the Command Line/ Distribution Path.
+6. Once these configurations are set, you can enter the Pre-Install Checks. These checks are set to make sure that a package is deployed only if the condition is met
+    1. File path exist.
+    2. File path does not exist.
+    3. Software version exists.
+    4. Software version does not exist.
+    5. Registry key exists.
+    6. Registry key does not exist.
+7. Enter the Precheck value i.e. File path/Software version/Registry key.
+8. You can also set the validation checks to validate the deployment. Validation path is either via
+    1. File path
+    2. Registry key
+    If file path is chosen, enter the File path
+    If the Registry key is chosen, Select the registry key from the dropdown, set the registry path and enter the registry path.
+9. You can next set the Patch dependency.
+    Patch Dependency is set so that the Patch deployment can be skipped based on current patch. For example, if you are planning to execute a series of patches, you can skip the current patch if the previous patch was not successfully installed/ was skipped.
+
+Once you have configured the Execute/Deploy configurations, you can also set configurations to
+•	restart the computer after the software has been installed.
+•	restart the Nanoheal application after the software has been installed.
+
+
+    ### Configure Silent Installation.
+If you have selected silent installation, you can configure the clicks and double clicks needed to automate the silent installer.
+You can also save the installation logs to the file patch you specify
+
+
+    ### Show status Message box 
+If you want to show a message box while downloading/installing the software, you can do so by enabling the Show status Message box option.
+You can enter the text that must be shown while:
+•	While Downloading the package
+•	While Installing the package
+
+    ### Other settings
+Maximum Time per patch - Set the maximum number in minutes, beyond which the Package would kill itself in case it has not been installed on the machine.
+Process to kill - Enter the process that must be killed before the Patch is executed. Configure Upload
+
+The software that you want to distribute is either placed at an FTP or a CDN location. You need to configure either one of them to be able to start the procedure of software distribution.
 
   </Tab>
 
-  <Tab title="Notification Resolution">
+
+  <Tab title="Configure Deploy">
    You can take an action on a notification that has the “New" status. To do so:
 1. Select the notification and the device on which you would like to take an action.
 2. Click on the menu button on the far-right corner and select 'Action'
